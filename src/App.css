@@ -36,3 +36,24 @@
     transform: rotate(360deg);
   }
 }
+.row{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 35px;
+}
+.container{
+  height: 100%;
+  padding: 50px 80px;
+}
+.multi-row{
+  width: 800px;
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+}
+
+.multi-row-item{
+  display: flex;
+    flex-direction: column;
+    margin-bottom: 35px;
+}
