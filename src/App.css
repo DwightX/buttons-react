@@ -55,3 +55,17 @@
     flex-direction: column;
     margin-bottom: 35px;
 }
+.label{
+  font-size: 12px;
+}
+button.primary {
+  display: flex;
+  align-items: center;
+}
+.footer{
+  color: #A9A9A9;
+  font-weight: 400;
+}
+.spanName{
+  font-weight: 700;
+}

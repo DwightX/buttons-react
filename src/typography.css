@@ -52,6 +52,7 @@ button:focus{
     color: #9E9E9E;
     background: #E0E0E0;
     box-shadow: none;
+    pointer-events: none;
 }
 .disabled:hover{
     color: #9E9E9E;
