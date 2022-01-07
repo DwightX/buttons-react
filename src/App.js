@@ -26,11 +26,11 @@ function App() {
       </div>
       <div className="row">
       <p className="label">&lt;Button variant="disabled" /&gt;</p>        
-        <Button variant="disabled">Default</Button>
+        <Button variant="disabled">Disabled</Button>
       </div>
       <div className="row">
-      <p className="label">&lt;Button variant="disabled" /&gt;</p>        
-        <Button disabled variant="text">Default</Button>
+      <p className="label">&lt;Button variant="text" disabled /&gt;</p>        
+        <Button disabled={true} variant="text">Disabled</Button>
       </div>
       <div className="multi-row">
         <div className="multi-row-item">

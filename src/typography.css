@@ -42,6 +42,11 @@ button:focus{
     background-color: rgba(41, 98, 255, 0.1);
     box-shadow: none;
 }
+.text:disabled{
+color: #9E9E9E;
+background-color: transparent;
+cursor: not-allowed;
+}
 .disableShadow{
     background: #3D5AFE;
     color:white;
